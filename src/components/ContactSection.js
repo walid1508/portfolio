@@ -79,7 +79,7 @@ const ContactSection = () => {
                             {isSubmitting ? t('sending') : t('sendMessage')}
                         </Button>
                     </Form>
-                    {submitted && <Alert variant="success" className="mt-3">t('messageSent')</Alert>}
+                    {submitted && <Alert variant="success" className="mt-3">{t('messageSent')}</Alert>}
                 </Col>
             </Row>
         </Container>
