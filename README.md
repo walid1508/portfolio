@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Portfolio de Walid Djato-Kpane
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenue sur mon portfolio personnel ! Ce site est le reflet de mon parcours en tant qu'étudiant en technologie du génie informatique et de ma passion pour le développement web.
 
-## Available Scripts
+## À propos de moi
 
-In the project directory, you can run:
+Je suis Walid Djato-Kpane, un développeur web en herbe fasciné par le potentiel illimité de la technologie. Mon objectif est de créer des expériences web immersives qui facilitent la vie des utilisateurs et élargissent leurs horizons.
 
-### `npm start`
+## Technologies Utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ce portfolio a été conçu en utilisant:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React.js**: Pour une interface utilisateur réactive et moderne.
+- **Bootstrap**: Pour un design élégant et réactif.
+- **Framer Motion**: Pour des animations fluides qui donnent vie à l'interface.
 
-### `npm test`
+## Fonctionnalités
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Une présentation claire de mes compétences et de mes projets.
+- Des animations subtiles qui améliorent l'expérience utilisateur sans distraire.
+- Une navigation intuitive qui rend l'information facilement accessible.
 
-### `npm run build`
+## Projets
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Chaque projet présenté ici est le résultat d'un travail acharné et d'une détermination à apprendre et à innover. N'hésitez pas à cliquer sur les liens pour voir les projets en détail et comprendre les technologies utilisées.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Si mon travail vous intéresse et que vous souhaitez discuter de la programmation, des opportunités ou simplement dire bonjour, vous pouvez me contacter via les liens fournis sur le site.
 
-### `npm run eject`
+## Lien du Portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Visitez mon portfolio](https://portfolio-walid.onrender.com/) pour voir mon travail en action.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Merci d'avoir pris le temps de regarder mon portfolio. J'espère que vous trouverez les projets présentés à la fois intéressants et inspirants !
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Installation et Configuration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Si vous souhaitez cloner et exécuter ce portfolio localement sur votre machine, voici les étapes à suivre:
 
-## Learn More
+## Prérequis
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Assurez-vous d'avoir les prérequis suivants installés sur votre système:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Node.js](https://nodejs.org/) (qui inclut [npm](http://npmjs.com/))
+- Git
 
-### Code Splitting
+## Étapes d'installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clonez le dépôt sur votre machine locale en utilisant la commande suivante dans votre terminal ou invite de commande:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone git@github.com:walid1508/portfolio.git
+cd portfolio
+npm install
+npm start
