@@ -42,7 +42,7 @@ const ContactSection = () => {
                     <p className="info-text">
                         {t('availability')}
                     </p>
-                    <div className="contact-details d-flex flex-row">
+                    <div className="contact-details">
                         <Button href="https://github.com/walid1508" target="_blank" className="hero-button" style={{ display: 'flex',  alignItems: 'center', justifyContent: 'center' }}>
                             <FaGithub style={{ marginRight: '8px' }} />
                             <span>GitHub</span>

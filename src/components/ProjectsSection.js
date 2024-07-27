@@ -1,7 +1,7 @@
 import {
     SiReact,
     SiTailwindcss,
-    SiElectron, SiXamarin, SiCsharp, SiDotnet
+    SiElectron, SiXamarin, SiCsharp, SiDotnet, SiTypescript, SiNextdotjs, SiMongodb
 } from 'react-icons/si';
 import {Card, Col, Container, Row} from "react-bootstrap";
 import { motion } from 'framer-motion';
@@ -39,6 +39,7 @@ const ProjectsSection = () => {
                                     {t('eagleCommercialDesc')}
                                 </Card.Text>
                                 <div className="tech-icons">
+                                    <SiTypescript />
                                     <SiReact/>
                                     <SiElectron />
                                     <SiTailwindcss/>
@@ -54,6 +55,32 @@ const ProjectsSection = () => {
                         whileInView="onscreen"
                         viewport={{once: true}}
                     >
+                        <a href="https://english-practice-walids-projects-cd6f9fc6.vercel.app/" target="_blank" rel="noreferrer">
+                            <Card className="project-card">
+                                <Card.Img variant="top" src="english-practice.png"/>
+                                <Card.Body>
+                                    <Card.Title>{t('englishPractice')}</Card.Title>
+                                    <Card.Text>
+                                        {t('englishPracticeDesc')}
+                                    </Card.Text>
+                                    <div className="tech-icons">
+                                        <SiTypescript/>
+                                        <SiNextdotjs/>
+                                        <SiTailwindcss/>
+                                        <SiMongodb/>
+                                    </div>
+                                </Card.Body>
+                            </Card>
+                        </a>
+                    </motion.div>
+                </Col>
+                <Col md={4} className="mb-4">
+                <motion.div
+                        variants={cardVariants}
+                        initial="offscreen"
+                        whileInView="onscreen"
+                        viewport={{once: true}}
+                    >
                         <a href="https://github.com/walid1508/pizzaEnLigne" target="_blank"  rel="noreferrer">
                             <Card className="project-card">
                                 <Card.Img variant="top" src="pizza.png"/>
@@ -63,35 +90,13 @@ const ProjectsSection = () => {
                                         {t('appPizzaDesc')}
                                     </Card.Text>
                                     <div className="tech-icons">
-                                        <SiXamarin />
                                         <SiCsharp />
+                                        <SiXamarin />
                                         <SiDotnet />
                                     </div>
                                 </Card.Body>
                             </Card>
                         </a>
-                    </motion.div>
-                </Col>
-                <Col md={4} className="mb-4">
-                    <motion.div
-                        variants={cardVariants}
-                        initial="offscreen"
-                        whileInView="onscreen"
-                        viewport={{once: true}}
-                    >
-                        <Card className="project-card">
-                            <Card.Img variant="top" src="nombre.png"/>
-                            <Card.Body>
-                                <Card.Title>{t('nombreMagique')} <PiFolderSimpleLock style={{ color: 'red' }} /> </Card.Title>
-                                <Card.Text>
-                                    {t('nombreMagiqueDesc')}
-                                </Card.Text>
-                                <div className="tech-icons">
-                                    <SiXamarin />
-                                    <SiCsharp />
-                                </div>
-                            </Card.Body>
-                        </Card>
                     </motion.div>
                 </Col>
             </Row>

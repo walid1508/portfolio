@@ -4,13 +4,12 @@ import { motion } from 'framer-motion';
 import {
     SiFigma,
     SiHtml5,
-    SiJavascript,
     SiBootstrap,
     SiReact,
     SiNodedotjs,
     SiMongodb,
     SiGit,
-    SiTailwindcss, SiMysql, SiLaravel, SiDjango
+    SiTailwindcss, SiMysql, SiLaravel, SiElectron, SiTypescript
 } from 'react-icons/si';
 import { useTranslation } from 'react-i18next';
 
@@ -58,7 +57,7 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiHtml5/> HTML/CSS
+                            <SiHtml5/> HTML & CSS
                         </motion.li>
                         <motion.li
                             key="javascript"
@@ -67,7 +66,7 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiJavascript/> JavaScript
+                            <SiTypescript /> JavaScript & TypeScript
                         </motion.li>
                         <motion.li
                             key="react"
@@ -110,7 +109,7 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiNodedotjs/> Node.js/Express.js
+                            <SiNodedotjs/> Express.js
                         </motion.li>
                         <motion.li
                             key="php"
@@ -119,16 +118,16 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiLaravel/> PHP(Laravel)
+                            <SiLaravel/> Laravel
                         </motion.li>
                         <motion.li
-                            key="pythin"
+                            key="electron"
                             variants={itemVariants}
                             initial="hidden"
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiDjango /> Python(Django)
+                            <SiElectron/> Electron
                         </motion.li>
                         <motion.li
                             key="mongodb"
@@ -137,7 +136,7 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiMongodb/> MongoDB
+                            <SiMongodb/> MongoDB & NeDB
                         </motion.li>
                         <motion.li
                             key="mysql"
@@ -146,7 +145,7 @@ const SkillsSection = () => {
                             whileInView="visible"
                             viewport={{once: false}}
                         >
-                            <SiMysql/> Mysql
+                            <SiMysql/> MySQL & PostgreSQL
                         </motion.li>
                     </ul>
                 </Col>
