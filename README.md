@@ -1,4 +1,4 @@
-# Portfolio de Walid Djato-Kpane
+# Mon Portfolio
 
 Bienvenue sur mon portfolio personnel ! Ce site est le reflet de mon parcours en tant qu'étudiant en technologie du génie informatique et de ma passion pour le développement web.
 
