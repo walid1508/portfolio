@@ -4,15 +4,15 @@ Bienvenue sur mon portfolio personnel ! Ce site est le reflet de mon parcours en
 
 ## À propos de moi
 
-Je suis Walid Djato-Kpane, un développeur web en herbe fasciné par le potentiel illimité de la technologie. Mon objectif est de créer des expériences web immersives qui facilitent la vie des utilisateurs et élargissent leurs horizons.
+Je suis Walid, un développeur web en herbe fasciné par le potentiel illimité de la technologie. Mon objectif est de créer des expériences web immersives qui facilitent la vie des utilisateurs et élargissent leurs horizons.
 
 ## Technologies Utilisées
 
 Ce portfolio a été conçu en utilisant:
 
-- **React.js**: Pour une interface utilisateur réactive et moderne.
-- **Bootstrap**: Pour un design élégant et réactif.
-- **Framer Motion**: Pour des animations fluides qui donnent vie à l'interface.
+- **React.js**
+- **Bootstrap**
+- **Framer Motion**
 
 ## Fonctionnalités
 
@@ -26,7 +26,7 @@ Chaque projet présenté ici est le résultat d'un travail acharné et d'une dé
 
 ## Contact
 
-Si mon travail vous intéresse et que vous souhaitez discuter de la programmation, des opportunités ou simplement dire bonjour, vous pouvez me contacter via les liens fournis sur le site.
+Si mon travail vous intéresse et que vous souhaitez discuter de la programmation, des opportunités ou simplement dire bonjour, vous pouvez me contacter via les liens fournis sur le portfolio.
 
 ## Lien du Portfolio
 
