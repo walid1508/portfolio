@@ -3,15 +3,12 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { PiFolderSimpleLock } from "react-icons/pi";
 import {
-  SiCsharp,
-  SiDotnet,
   SiElectron,
   SiMongodb,
   SiNextdotjs,
   SiReact,
   SiTailwindcss,
   SiTypescript,
-  SiXamarin,
 } from "react-icons/si";
 
 const cardVariants = {
@@ -89,19 +86,19 @@ const ProjectsSection = () => {
             viewport={{ once: true }}
           >
             <a
-              href="https://github.com/walid1508/pizzaEnLigne"
+              href="https://citation-stoique.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
               <Card className="project-card">
-                <Card.Img variant="top" src="pizza.png" />
+                <Card.Img variant="top" src="quote.png" />
                 <Card.Body>
-                  <Card.Title>{t("appPizza")}</Card.Title>
-                  <Card.Text>{t("appPizzaDesc")}</Card.Text>
+                  <Card.Title>{t("quoteGenerator")}</Card.Title>
+                  <Card.Text>{t("quoteGeneratorDesc")}</Card.Text>
                   <div className="tech-icons">
-                    <SiCsharp />
-                    <SiXamarin />
-                    <SiDotnet />
+                    <SiTypescript />
+                    <SiNextdotjs />
+                    <SiMongodb />
                   </div>
                 </Card.Body>
               </Card>
