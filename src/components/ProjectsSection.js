@@ -1,12 +1,10 @@
 import { motion } from "framer-motion";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import { PiFolderSimpleLock } from "react-icons/pi";
 import {
-  SiElectron,
   SiMongodb,
   SiNextdotjs,
-  SiReact,
+  SiSQL,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -32,22 +30,24 @@ const ProjectsSection = () => {
             whileInView="onscreen"
             viewport={{ once: true }}
           >
-            <Card className="project-card">
-              <Card.Img variant="top" src="ec.png" />
-              <Card.Body>
-                <Card.Title>
-                  {t("eagleCommercial")}{" "}
-                  <PiFolderSimpleLock style={{ color: "red" }} />{" "}
-                </Card.Title>
-                <Card.Text>{t("eagleCommercialDesc")}</Card.Text>
-                <div className="tech-icons">
-                  <SiTypescript />
-                  <SiReact />
-                  <SiElectron />
-                  <SiTailwindcss />
-                </div>
-              </Card.Body>
-            </Card>
+            <a
+              href="https://github.com/walid1508/finance-tracker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card className="project-card">
+                <Card.Img variant="top" src="finance-tracker.png" />
+                <Card.Body>
+                  <Card.Title>{t("financeTracker")}</Card.Title>
+                  <Card.Text>{t("financeTrackerDesc")}</Card.Text>
+                  <div className="tech-icons">
+                    <SiTypescript />
+                    <SiTailwindcss />
+                    <SiSQL />
+                  </div>
+                </Card.Body>
+              </Card>
+            </a>
           </motion.div>
         </Col>
         <Col md={4} className="mb-4">
