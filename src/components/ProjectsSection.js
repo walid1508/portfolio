@@ -4,8 +4,10 @@ import { useTranslation } from "react-i18next";
 import {
   SiMongodb,
   SiNextdotjs,
-  SiSQL,
+  SiReact,
+  SiSqlite,
   SiTailwindcss,
+  SiTauri,
   SiTypescript,
 } from "react-icons/si";
 
@@ -43,7 +45,9 @@ const ProjectsSection = () => {
                   <div className="tech-icons">
                     <SiTypescript />
                     <SiTailwindcss />
-                    <SiSQL />
+                    <SiReact />
+                    <SiSqlite />
+                    <SiTauri />
                   </div>
                 </Card.Body>
               </Card>
